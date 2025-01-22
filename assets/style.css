@@ -66,6 +66,8 @@ main section {
 
 .team-members {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
 
     .team-member {
