@@ -64,6 +64,10 @@ main section {
     margin-top: 3rem;
 }
 
+.team h2 {
+    margin-bottom: 1.5em;
+}
+
 .team-members {
     display: flex;
     justify-content: center;
@@ -80,9 +84,10 @@ main section {
         .member-photo {
             width: 200px;
             height: 200px;
+            border: 10px solid #d92662;
             border-radius: 50%;
             color: white;
-            background-color: #d92662;
+            background-color: white;
             display: flex;
             justify-content: center;
             align-items: center;
